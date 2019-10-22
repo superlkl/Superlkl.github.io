@@ -1,4 +1,4 @@
-
+# 测量与布局
  * 设计一个container
  * 实现内部控件自动换行。即里面的控件能够根据长度来判断当前行是否容得下它，进而决定是否转到下一行显示
  * 也叫做流式布局（FlowLayout）
@@ -159,5 +159,6 @@ int childWidth = child.getMeasuredWidth()+lp.leftMargin+lp.rightMargin;
         top += childHeight;
 ```
 
+# RecyclerView的自定义属性
 
    
